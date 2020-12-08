@@ -15,7 +15,7 @@ Create a compute server instance (Ubuntu/CentOS) on your cloud provider.
 Create and attach a storage volume to the server instance
 Create key-pair by providing the SSH public key.
 
--------------------------- OR --------------------------
+--------------------------------- OR -----------------------------------
 
 Assignment II: Docker
 Create a container by pulling a Docker image (Ubuntu/CentOS) from a Docker registry.
