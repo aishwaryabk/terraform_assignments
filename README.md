@@ -30,6 +30,7 @@ Instructions:
 · Output the instance/container IP in Terraform output once all the resources are processed (Use “depends_on” on last resource).
 · Variables should have proper description and type mentioned.
 · Exclusive files for input variables and output values blocks.
+
 ---------------------------------------------------------------------------------------------------------------------
 This assignment is follow-up on the previous assignment
 · Install an HTTP service and host an index.html file on the server created in the previous assignment.
