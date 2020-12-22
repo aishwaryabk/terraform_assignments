@@ -40,7 +40,8 @@ resource "openstack_compute_keypair_v2" "test-keypair" {
 
 resource "null_resource" "remote-machine" {
  connection {
-    host = "${openstack_compute_instance_v2.basic-instance.network.0.fixed_ip_v4}"
+    type        = "ssh"
+    host        = "${openstack_compute_instance_v2.basic-instance.network.0.fixed_ip_v4}"
     private_key = "${file(var.pb_key_file)}"
   }
 
